@@ -16,6 +16,8 @@
 		ABBD96282C8EB4DE00442916 /* Vod_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD96272C8EB4DE00442916 /* Vod_iosTests.swift */; };
 		ABBD96322C8EB4DE00442916 /* Vod_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD96312C8EB4DE00442916 /* Vod_iosUITests.swift */; };
 		ABBD96342C8EB4DE00442916 /* Vod_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD96332C8EB4DE00442916 /* Vod_iosUITestsLaunchTests.swift */; };
+		ABBD96412C8EB67500442916 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ABBD96402C8EB67500442916 /* README.md */; };
+		ABBD96432C8EB6A700442916 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ABBD96422C8EB6A700442916 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ABBD962D2C8EB4DE00442916 /* Vod-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vod-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBD96312C8EB4DE00442916 /* Vod_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vod_iosUITests.swift; sourceTree = "<group>"; };
 		ABBD96332C8EB4DE00442916 /* Vod_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vod_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABBD96402C8EB67500442916 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ABBD96422C8EB6A700442916 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		ABBD96042C8EB4DC00442916 = {
 			isa = PBXGroup;
 			children = (
+				ABBD96422C8EB6A700442916 /* .gitignore */,
+				ABBD96402C8EB67500442916 /* README.md */,
 				ABBD960F2C8EB4DC00442916 /* Vod-ios */,
 				ABBD96262C8EB4DE00442916 /* Vod-iosTests */,
 				ABBD96302C8EB4DE00442916 /* Vod-iosUITests */,
@@ -231,8 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBD96432C8EB6A700442916 /* .gitignore in Resources */,
 				ABBD961A2C8EB4DE00442916 /* Assets.xcassets in Resources */,
 				ABBD961D2C8EB4DE00442916 /* Base in Resources */,
+				ABBD96412C8EB67500442916 /* README.md in Resources */,
 				ABBD96182C8EB4DC00442916 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +487,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
