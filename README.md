@@ -19,12 +19,18 @@
 **Task 1. Launch Screen**
    - **Issues** - [task-1-launch](https://github.com/ld5ehom/vod-ios/tree/task-1-launch)
    - **Details** :
-     - **Launch Screen** 
+     - **Launch Screen** - [commit b7a9496](https://github.com/ld5ehom/vod-ios/commit/b7a9496601fc934e4a2ec9f4f85090e46b2226ea)
        - Implemented animation using Auto Layout
 
 
 **Task 2. Login Page**
-
+   - **Issues** - [task-2-home](https://github.com/ld5ehom/vod-ios/tree/task-2-home)
+   - **Details** :
+     - **Login Storyboard and ViewController Setup** 
+       - Created a storyboard and connected it to a `LoginViewController`.
+       - Configured basic UI elements, including a login button with rounded corners, border, and custom color.
+       - Applied Auto Layout constraints to ensure proper button sizing and positioning across devices.
+ 
 
 **Task 3. Home Page**
 
