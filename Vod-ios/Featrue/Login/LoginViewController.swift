@@ -15,6 +15,10 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Button Title
+        self.loginButton.setTitle("Sign In", for: .normal)
+        
+        // Button Style
         self.loginButton.layer.cornerRadius = 19
         self.loginButton.layer.borderColor = UIColor(named: "uclaBlue")?.cgColor
         self.loginButton.layer.borderWidth = 1
