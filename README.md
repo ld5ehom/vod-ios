@@ -24,15 +24,17 @@
 
 
 **Task 2. Login Page**
-   - **Issues** - [task-2-home](https://github.com/ld5ehom/vod-ios/tree/task-2-home)
+   - **Issues** - [task-2-login](https://github.com/ld5ehom/vod-ios/tree/task-2-login)
    - **Details** :
-     - **Login Storyboard and ViewController Setup** 
+     - **Login Storyboard and ViewController Setup** - [commit 503bae0](https://github.com/ld5ehom/vod-ios/commit/503bae01d5c957ae39a429b0a18eb6eb510bde43) 
        - Created a storyboard and connected it to a `LoginViewController`.
        - Configured basic UI elements, including a login button with rounded corners, border, and custom color.
        - Applied Auto Layout constraints to ensure proper button sizing and positioning across devices.
  
 
 **Task 3. Home Page**
+   - **Issues** - [task-3-home](https://github.com/ld5ehom/vod-ios/tree/task-3-home)
+   - **Details** :
 
 
 **Task 4. My Page**
