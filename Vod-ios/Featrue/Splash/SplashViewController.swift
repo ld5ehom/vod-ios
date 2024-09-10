@@ -41,7 +41,10 @@ class SplashViewController: UIViewController {
             // Optional: Fade in effect
             self?.appIcon.alpha = 0.0
         }, completion: { _ in
+            // move to Home storyboard
             let storyboard = UIStoryboard(name: "Home", bundle: nil)
+            
+            // move to initialviewcontroller (Home storyboard)
             let viewController = storyboard.instantiateInitialViewController()
             
             // Switch the root view to HomeViewController
