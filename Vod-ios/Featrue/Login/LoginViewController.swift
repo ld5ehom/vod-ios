@@ -9,33 +9,32 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    // Login Button Outlet
-    @IBOutlet weak var loginButton: UIButton!
-    
+    // signIn Button Outlet
+    @IBOutlet weak var signInButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Button Title
-        self.loginButton.setTitle("Sign In", for: .normal)
+        // Login Button Title
+        self.signInButton.setTitle("Sign In", for: .normal)
+        self.signInButton.setTitleColor(UIColor.white, for: .normal)
         
-        // Button Style
-        self.loginButton.layer.cornerRadius = 19
-        self.loginButton.layer.borderColor = UIColor(named: "uclaBlue")?.cgColor
-        self.loginButton.layer.borderWidth = 1
-        
-        // button width Auto Layout setting
-        self.loginButton.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            self.loginButton.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 40), // left leading
-            self.loginButton.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -40), // right trailing
-            self.loginButton.heightAnchor.constraint(equalToConstant: 50) // Height
-        ])
+        // signIn Button Style
+        self.signInButton.layer.cornerRadius = 19
+        self.signInButton.layer.borderWidth = 1
+        self.signInButton.layer.borderColor = UIColor(named: "wh")?.cgColor
         
     }
     
-    // Login button did tap
-    @IBAction func buttonDidTap(_ sender: Any) {
+    // signInButton tap
+    @IBAction func signInDidTap(_ sender: Any) {
         
+        self.view.window?.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "tabBar")
+    }
+    
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        .portrait
     }
     
     

@@ -30,7 +30,7 @@ class SplashViewController: UIViewController {
         /*
         // lottie
         lottieAnimationView.play { _ in
-            present(HomeViewController(), animated: true)
+            present(LoginViewController(), animated: true)
         }
         */
         
@@ -41,18 +41,18 @@ class SplashViewController: UIViewController {
             // Optional: Fade in effect
             self?.appIcon.alpha = 0.0
         }, completion: { _ in
-            // move to Home storyboard
-            let storyboard = UIStoryboard(name: "Home", bundle: nil)
+            // move to Login storyboard(Main)
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
             
-            // move to initialviewcontroller (Home storyboard)
+            // move to initial view controller (Main storyboard)
             let viewController = storyboard.instantiateInitialViewController()
             
-            // Switch the root view to HomeViewController
+            // Switch the root view to the initial view controller of the Main storyboard
             if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
                let window = windowScene.windows.first(where: { $0.isKeyWindow }) {
                 window.rootViewController = viewController
             }
         })
-
     }
+
 }

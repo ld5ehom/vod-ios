@@ -35,6 +35,10 @@
 **Task 3. Home Page**
    - **Issues** - [task-3-home](https://github.com/ld5ehom/vod-ios/tree/task-3-home)
    - **Details** :
+     - **HomeViewCell and HomeViewController** 
+       - Implemented the home screen using a UITableView within HomeViewController and integrated it with a TabBarController for navigation.
+       - Used custom cells created with .xib files to display video content and other sections (header, recommendations, and footer) in the table view.
+       - Managed UI elements inside the .xib cells by overriding awakeFromNib() to configure views when the cell is loaded.
 
 
 **Task 4. My Page**
@@ -56,7 +60,7 @@
 -----
 ## Progress Tracking
 
-- **Overall Progress** : Task 1 In Progress
+- **Overall Progress** : Task 3 In Progress
 
 
 -----

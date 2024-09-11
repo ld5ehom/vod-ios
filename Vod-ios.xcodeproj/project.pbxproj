@@ -13,10 +13,22 @@
 		ABAB3ABD2C9003C700CF6CA8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAB3ABC2C9003C700CF6CA8 /* Colors.xcassets */; };
 		ABAB3ABF2C9007E600CF6CA8 /* VFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB3ABE2C9007E600CF6CA8 /* VFont.swift */; };
 		ABAB3AC12C90080900CF6CA8 /* VColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB3AC02C90080900CF6CA8 /* VColor.swift */; };
-		ABAB3AC42C90094B00CF6CA8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB3AC32C90094B00CF6CA8 /* HomeViewController.swift */; };
-		ABAB3AC62C90095500CF6CA8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAB3AC52C90095500CF6CA8 /* Home.storyboard */; };
-		ABAB3ACA2C900B3E00CF6CA8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAB3AC92C900B3E00CF6CA8 /* Login.storyboard */; };
+		ABAB3ACA2C900B3E00CF6CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAB3AC92C900B3E00CF6CA8 /* Main.storyboard */; };
 		ABAB3ACD2C900B5500CF6CA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB3ACC2C900B5500CF6CA8 /* LoginViewController.swift */; };
+		ABAB3AD12C90507F00CF6CA8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAB3AD02C90507F00CF6CA8 /* HomeViewController.swift */; };
+		ABAFC1DD2C910BF20078A5B2 /* HomeVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFC1DB2C910BF20078A5B2 /* HomeVideoCell.swift */; };
+		ABAFC1DE2C910BF20078A5B2 /* HomeVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAFC1DC2C910BF20078A5B2 /* HomeVideoCell.xib */; };
+		ABAFC1E02C9164960078A5B2 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFC1DF2C9164960078A5B2 /* HomeSection.swift */; };
+		ABAFC1E22C9165E60078A5B2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFC1E12C9165E60078A5B2 /* HomeViewModel.swift */; };
+		ABAFC1E42C91712E0078A5B2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFC1E32C91712E0078A5B2 /* TabBarController.swift */; };
+		ABAFC1E62C91725B0078A5B2 /* HomeHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAFC1E52C91725B0078A5B2 /* HomeHeaderCell.xib */; };
+		ABAFC1EA2C9174000078A5B2 /* HomeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFC1E92C9174000078A5B2 /* HomeHeaderCell.swift */; };
+		ABAFC1EC2C9174BF0078A5B2 /* HomeFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAFC1EB2C9174BF0078A5B2 /* HomeFooterCell.xib */; };
+		ABAFC1F02C9175520078A5B2 /* HomeFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFC1EF2C9175520078A5B2 /* HomeFooterCell.swift */; };
+		ABAFC1F22C91759E0078A5B2 /* HomeRecommendContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAFC1F12C91759E0078A5B2 /* HomeRecommendContainerCell.xib */; };
+		ABAFC1F72C917AF70078A5B2 /* HomeRecommendItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAFC1F62C917AF70078A5B2 /* HomeRecommendItemCell.xib */; };
+		ABAFC1F92C917B750078A5B2 /* HomeRecommendItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFC1F82C917B750078A5B2 /* HomeRecommendItemCell.swift */; };
+		ABAFC1FB2C917BE70078A5B2 /* HomeRecommendContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFC1FA2C917BE70078A5B2 /* HomeRecommendContainerCell.swift */; };
 		ABBD96112C8EB4DC00442916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD96102C8EB4DC00442916 /* AppDelegate.swift */; };
 		ABBD96132C8EB4DC00442916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD96122C8EB4DC00442916 /* SceneDelegate.swift */; };
 		ABBD961A2C8EB4DE00442916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBD96192C8EB4DE00442916 /* Assets.xcassets */; };
@@ -51,10 +63,22 @@
 		ABAB3ABC2C9003C700CF6CA8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		ABAB3ABE2C9007E600CF6CA8 /* VFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFont.swift; sourceTree = "<group>"; };
 		ABAB3AC02C90080900CF6CA8 /* VColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VColor.swift; sourceTree = "<group>"; };
-		ABAB3AC32C90094B00CF6CA8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		ABAB3AC52C90095500CF6CA8 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		ABAB3AC92C900B3E00CF6CA8 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		ABAB3AC92C900B3E00CF6CA8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ABAB3ACC2C900B5500CF6CA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ABAB3AD02C90507F00CF6CA8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ABAFC1DB2C910BF20078A5B2 /* HomeVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVideoCell.swift; sourceTree = "<group>"; };
+		ABAFC1DC2C910BF20078A5B2 /* HomeVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVideoCell.xib; sourceTree = "<group>"; };
+		ABAFC1DF2C9164960078A5B2 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
+		ABAFC1E12C9165E60078A5B2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ABAFC1E32C91712E0078A5B2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		ABAFC1E52C91725B0078A5B2 /* HomeHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeHeaderCell.xib; sourceTree = "<group>"; };
+		ABAFC1E92C9174000078A5B2 /* HomeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCell.swift; sourceTree = "<group>"; };
+		ABAFC1EB2C9174BF0078A5B2 /* HomeFooterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeFooterCell.xib; sourceTree = "<group>"; };
+		ABAFC1EF2C9175520078A5B2 /* HomeFooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFooterCell.swift; sourceTree = "<group>"; };
+		ABAFC1F12C91759E0078A5B2 /* HomeRecommendContainerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeRecommendContainerCell.xib; sourceTree = "<group>"; };
+		ABAFC1F62C917AF70078A5B2 /* HomeRecommendItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeRecommendItemCell.xib; sourceTree = "<group>"; };
+		ABAFC1F82C917B750078A5B2 /* HomeRecommendItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendItemCell.swift; sourceTree = "<group>"; };
+		ABAFC1FA2C917BE70078A5B2 /* HomeRecommendContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendContainerCell.swift; sourceTree = "<group>"; };
 		ABBD960D2C8EB4DC00442916 /* Vod-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vod-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBD96102C8EB4DC00442916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABBD96122C8EB4DC00442916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,9 +121,9 @@
 		ABAB3AB82C8FD54B00CF6CA8 /* Featrue */ = {
 			isa = PBXGroup;
 			children = (
+				ABAB3AB92C8FD55C00CF6CA8 /* Splash */,
 				ABAB3AC72C900A8E00CF6CA8 /* Login */,
 				ABAB3AC22C90085F00CF6CA8 /* Home */,
-				ABAB3AB92C8FD55C00CF6CA8 /* Splash */,
 			);
 			path = Featrue;
 			sourceTree = "<group>";
@@ -137,8 +161,11 @@
 		ABAB3AC22C90085F00CF6CA8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				ABAB3AC52C90095500CF6CA8 /* Home.storyboard */,
-				ABAB3AC32C90094B00CF6CA8 /* HomeViewController.swift */,
+				ABAFC1D82C910B570078A5B2 /* Cell */,
+				ABAFC1DF2C9164960078A5B2 /* HomeSection.swift */,
+				ABAB3AD02C90507F00CF6CA8 /* HomeViewController.swift */,
+				ABAFC1E12C9165E60078A5B2 /* HomeViewModel.swift */,
+				ABAFC1E32C91712E0078A5B2 /* TabBarController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -146,10 +173,26 @@
 		ABAB3AC72C900A8E00CF6CA8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				ABAB3AC92C900B3E00CF6CA8 /* Login.storyboard */,
 				ABAB3ACC2C900B5500CF6CA8 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		ABAFC1D82C910B570078A5B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ABAFC1E52C91725B0078A5B2 /* HomeHeaderCell.xib */,
+				ABAFC1E92C9174000078A5B2 /* HomeHeaderCell.swift */,
+				ABAFC1DC2C910BF20078A5B2 /* HomeVideoCell.xib */,
+				ABAFC1DB2C910BF20078A5B2 /* HomeVideoCell.swift */,
+				ABAFC1F12C91759E0078A5B2 /* HomeRecommendContainerCell.xib */,
+				ABAFC1FA2C917BE70078A5B2 /* HomeRecommendContainerCell.swift */,
+				ABAFC1F62C917AF70078A5B2 /* HomeRecommendItemCell.xib */,
+				ABAFC1F82C917B750078A5B2 /* HomeRecommendItemCell.swift */,
+				ABAFC1EB2C9174BF0078A5B2 /* HomeFooterCell.xib */,
+				ABAFC1EF2C9175520078A5B2 /* HomeFooterCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		ABBD96042C8EB4DC00442916 = {
@@ -180,6 +223,7 @@
 				ABAB3ABA2C8FD58000CF6CA8 /* Delegate */,
 				ABAB3ABB2C8FEDE700CF6CA8 /* DesignSource */,
 				ABAB3AB82C8FD54B00CF6CA8 /* Featrue */,
+				ABAB3AC92C900B3E00CF6CA8 /* Main.storyboard */,
 				ABBD961E2C8EB4DE00442916 /* Info.plist */,
 			);
 			path = "Vod-ios";
@@ -306,14 +350,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABAB3ACA2C900B3E00CF6CA8 /* Login.storyboard in Resources */,
-				ABAB3AC62C90095500CF6CA8 /* Home.storyboard in Resources */,
+				ABAB3ACA2C900B3E00CF6CA8 /* Main.storyboard in Resources */,
 				ABBD96432C8EB6A700442916 /* .gitignore in Resources */,
+				ABAFC1DE2C910BF20078A5B2 /* HomeVideoCell.xib in Resources */,
 				ABBD961A2C8EB4DE00442916 /* Assets.xcassets in Resources */,
 				ABAB3AA32C8FC99100CF6CA8 /* LaunchScreen.storyboard in Resources */,
+				ABAFC1F22C91759E0078A5B2 /* HomeRecommendContainerCell.xib in Resources */,
 				ABAB3AB22C8FC9D700CF6CA8 /* Splash.storyboard in Resources */,
 				ABBD96412C8EB67500442916 /* README.md in Resources */,
+				ABAFC1F72C917AF70078A5B2 /* HomeRecommendItemCell.xib in Resources */,
+				ABAFC1EC2C9174BF0078A5B2 /* HomeFooterCell.xib in Resources */,
 				ABAB3ABD2C9003C700CF6CA8 /* Colors.xcassets in Resources */,
+				ABAFC1E62C91725B0078A5B2 /* HomeHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,12 +387,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAB3ACD2C900B5500CF6CA8 /* LoginViewController.swift in Sources */,
+				ABAFC1EA2C9174000078A5B2 /* HomeHeaderCell.swift in Sources */,
+				ABAFC1F92C917B750078A5B2 /* HomeRecommendItemCell.swift in Sources */,
+				ABAFC1F02C9175520078A5B2 /* HomeFooterCell.swift in Sources */,
 				ABBD96112C8EB4DC00442916 /* AppDelegate.swift in Sources */,
+				ABAFC1E42C91712E0078A5B2 /* TabBarController.swift in Sources */,
 				ABAB3AC12C90080900CF6CA8 /* VColor.swift in Sources */,
+				ABAFC1FB2C917BE70078A5B2 /* HomeRecommendContainerCell.swift in Sources */,
+				ABAFC1E22C9165E60078A5B2 /* HomeViewModel.swift in Sources */,
 				ABBD96132C8EB4DC00442916 /* SceneDelegate.swift in Sources */,
 				ABAB3ABF2C9007E600CF6CA8 /* VFont.swift in Sources */,
+				ABAFC1E02C9164960078A5B2 /* HomeSection.swift in Sources */,
+				ABAB3AD12C90507F00CF6CA8 /* HomeViewController.swift in Sources */,
+				ABAFC1DD2C910BF20078A5B2 /* HomeVideoCell.swift in Sources */,
 				ABAB3AB42C8FC9DE00CF6CA8 /* SplashViewController.swift in Sources */,
-				ABAB3AC42C90094B00CF6CA8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
