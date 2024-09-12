@@ -44,7 +44,7 @@ class HomeVideoCell: UITableViewCell {
         
         self.containerView.layer.cornerRadius = 10
         self.containerView.layer.borderWidth = 1
-        self.containerView.layer.borderColor = UIColor(named: "uclaDarkerBlue")?.cgColor
+        self.containerView.layer.borderColor = UIColor(named: "uclaGold")?.cgColor
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

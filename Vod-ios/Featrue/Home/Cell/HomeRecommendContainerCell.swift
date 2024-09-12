@@ -38,7 +38,7 @@ class HomeRecommendContainerCell: UITableViewCell {
 
         self.containerView.layer.cornerRadius = 10
         self.containerView.layer.borderWidth = 1
-        self.containerView.layer.borderColor = UIColor(named: "uclaDarkestBlue")?.cgColor
+        self.containerView.layer.borderColor = UIColor(named: "uclaGold")?.cgColor
         self.tableView.rowHeight = HomeRecommendItemCell.height
         self.tableView.delegate = self
         self.tableView.dataSource = self

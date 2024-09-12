@@ -47,6 +47,12 @@ class HomeViewController: UIViewController {
             forCellReuseIdentifier: HomeTrendingContainerCell.identifier
         )
         
+        // Home recent view
+        self.tableView.register(
+            UINib(nibName: HomeRecentWatchContainerCell.identifier, bundle: .main),
+            forCellReuseIdentifier: HomeRecentWatchContainerCell.identifier
+        )
+        
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "empty")
         self.tableView.delegate = self
         self.tableView.dataSource = self
@@ -77,6 +83,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             return 2
         case .recommend:
             return 1
+        case .recentWatch:
+            return 1
         case .footer:
             return 1
         }
@@ -99,6 +107,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             return HomeVideoCell.height
         case .recommend:
             return HomeRecommendContainerCell.height
+        case .recentWatch:
+            return HomeRecentWatchContainerCell.height
         case .footer:
             return HomeFooterCell.height
         }
@@ -140,10 +150,17 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                 withIdentifier: HomeRecommendContainerCell.identifier,
                 for: indexPath
             )
-            
             (cell as? HomeRecommendContainerCell)?.delegate = self
-            
             return cell
+            
+        case .recentWatch:
+            let cell = tableView.dequeueReusableCell(
+                withIdentifier: HomeRecentWatchContainerCell.identifier,
+                for: indexPath
+            )
+            (cell as? HomeRecentWatchContainerCell)?.delegate = self
+            return cell
+            
         case .footer:
             return tableView.dequeueReusableCell(
                 withIdentifier: HomeFooterCell.identifier,
@@ -166,5 +183,13 @@ extension HomeViewController: HomeRecommendContainerCellDelegate {
 extension HomeViewController: HomeTrendingContainerCellDeleate {
     func homeTrendingContainerCell(_ cell: HomeTrendingContainerCell, didSelectItemAt index: Int) {
         print("User selected trending item at position \(index)")
+    }
+}
+
+// User Watch history section
+extension HomeViewController: HomeRecentWatchContainerCellDelegate {
+    
+    func homeRecentWatchContainerCell(_ cell: HomeRecentWatchContainerCell, didSelectItemAt index: Int) {
+        print("home recent watch did select at \(index)")
     }
 }

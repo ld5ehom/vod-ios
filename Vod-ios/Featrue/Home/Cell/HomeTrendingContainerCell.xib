@@ -27,9 +27,9 @@
                                 <color key="textColor" name="UCLA Gold"/>
                                 <color key="highlightedColor" name="UCLA Darkest Blue"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PsC-dr-nvI">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PsC-dr-nvI">
                                 <rect key="frame" x="0.0" y="63" width="384" height="265"/>
-                                <color key="backgroundColor" name="UCLA Darkest Blue"/>
+                                <color key="backgroundColor" name="UCLA Darker Blue"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="20" id="vrQ-Cx-edQ">
                                     <size key="itemSize" width="130" height="230"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -38,7 +38,7 @@
                                 </collectionViewFlowLayout>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" name="UCLA Darkest Blue"/>
+                        <color key="backgroundColor" name="UCLA Darker Blue"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="PsC-dr-nvI" secondAttribute="bottom" id="5pq-DN-D9S"/>
                             <constraint firstAttribute="trailing" secondItem="PsC-dr-nvI" secondAttribute="trailing" id="8aj-WC-slm"/>
@@ -49,7 +49,7 @@
                         </constraints>
                     </view>
                 </subviews>
-                <color key="backgroundColor" name="UCLA Darkest Blue"/>
+                <color key="backgroundColor" name="UCLA Darker Blue"/>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="B1K-3m-VLt" secondAttribute="bottom" constant="21" id="HH8-sf-0pd"/>
                     <constraint firstAttribute="trailing" secondItem="B1K-3m-VLt" secondAttribute="trailing" id="SBq-eb-aLb"/>
@@ -65,6 +65,9 @@
         </tableViewCell>
     </objects>
     <resources>
+        <namedColor name="UCLA Darker Blue">
+            <color red="0.0" green="0.33300000429153442" blue="0.52899998426437378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="UCLA Darkest Blue">
             <color red="0.0" green="0.23100000619888306" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
