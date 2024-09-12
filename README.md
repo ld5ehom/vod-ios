@@ -35,10 +35,15 @@
 **Task 3. Home Page**
    - **Issues** - [task-3-home](https://github.com/ld5ehom/vod-ios/tree/task-3-home)
    - **Details** :
-     - **HomeViewCell and HomeViewController** 
+     - **HomeViewCell and HomeViewController** - [commit 11b40f0](https://github.com/ld5ehom/vod-ios/commit/11b40f0d327ceb7fccb04f4ca39bd744a4826a4e) 
        - Implemented the home screen using a UITableView within HomeViewController and integrated it with a TabBarController for navigation.
        - Used custom cells created with .xib files to display video content and other sections (header, recommendations, and footer) in the table view.
        - Managed UI elements inside the .xib cells by overriding awakeFromNib() to configure views when the cell is loaded.
+     - **HomeTrending Screen Implementation (Using UICollectionView)** 
+       - To add a horizontal trending component to the home screen, we utilized UICollectionView. This collection view is responsible for displaying trending items and is implemented within HomeTrendingContainerCell.
+       - The cells of the UICollectionView are reused to conserve memory. HomeTrendingItemCell is used as the cell for the collection view, managed within HomeTrendingContainerCell. The delegate pattern is employed to implement delegate and datasource, effectively managing data handling and UI setup for the cells.
+       - The layout of the UICollectionView uses the default layout provided and can be customized to adjust the cell arrangement. This setup ensures that trending items are properly aligned in a horizontal format.
+       - HomeTrendingItemCell is defined separately and used as a cell within the UICollectionView. The cell's UI is configured in awakeFromNib(), displaying the ranking of trending items. This modular approach in HomeTrendingContainerCell helps to organize and maintain the UI elements efficiently.
 
 
 **Task 4. My Page**

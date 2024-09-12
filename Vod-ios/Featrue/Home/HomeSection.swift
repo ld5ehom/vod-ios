@@ -10,6 +10,7 @@ import Foundation
 // Section setup 
 enum HomeSection: Int, CaseIterable {
     case header
+    case trending
     case video
     case recommend
     case footer

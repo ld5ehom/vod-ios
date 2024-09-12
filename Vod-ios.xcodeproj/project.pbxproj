@@ -37,6 +37,10 @@
 		ABBD96342C8EB4DE00442916 /* Vod_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD96332C8EB4DE00442916 /* Vod_iosUITestsLaunchTests.swift */; };
 		ABBD96412C8EB67500442916 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ABBD96402C8EB67500442916 /* README.md */; };
 		ABBD96432C8EB6A700442916 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ABBD96422C8EB6A700442916 /* .gitignore */; };
+		ABE31AD32C9272410092BC9E /* HomeTrendingContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE31AD22C9272410092BC9E /* HomeTrendingContainerCell.xib */; };
+		ABE31AD52C9273B80092BC9E /* HomeTrendingContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE31AD42C9273B80092BC9E /* HomeTrendingContainerCell.swift */; };
+		ABE31AD72C9274730092BC9E /* HomeTrendingItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE31AD62C9274730092BC9E /* HomeTrendingItemCell.xib */; };
+		ABE31AD92C92749D0092BC9E /* HomeTrendingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE31AD82C92749D0092BC9E /* HomeTrendingItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,10 @@
 		ABBD96332C8EB4DE00442916 /* Vod_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vod_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ABBD96402C8EB67500442916 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ABBD96422C8EB6A700442916 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ABE31AD22C9272410092BC9E /* HomeTrendingContainerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTrendingContainerCell.xib; sourceTree = "<group>"; };
+		ABE31AD42C9273B80092BC9E /* HomeTrendingContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTrendingContainerCell.swift; sourceTree = "<group>"; };
+		ABE31AD62C9274730092BC9E /* HomeTrendingItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTrendingItemCell.xib; sourceTree = "<group>"; };
+		ABE31AD82C92749D0092BC9E /* HomeTrendingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTrendingItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +173,6 @@
 				ABAFC1DF2C9164960078A5B2 /* HomeSection.swift */,
 				ABAB3AD02C90507F00CF6CA8 /* HomeViewController.swift */,
 				ABAFC1E12C9165E60078A5B2 /* HomeViewModel.swift */,
-				ABAFC1E32C91712E0078A5B2 /* TabBarController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -185,6 +192,10 @@
 				ABAFC1E92C9174000078A5B2 /* HomeHeaderCell.swift */,
 				ABAFC1DC2C910BF20078A5B2 /* HomeVideoCell.xib */,
 				ABAFC1DB2C910BF20078A5B2 /* HomeVideoCell.swift */,
+				ABE31AD62C9274730092BC9E /* HomeTrendingItemCell.xib */,
+				ABE31AD82C92749D0092BC9E /* HomeTrendingItemCell.swift */,
+				ABE31AD22C9272410092BC9E /* HomeTrendingContainerCell.xib */,
+				ABE31AD42C9273B80092BC9E /* HomeTrendingContainerCell.swift */,
 				ABAFC1F12C91759E0078A5B2 /* HomeRecommendContainerCell.xib */,
 				ABAFC1FA2C917BE70078A5B2 /* HomeRecommendContainerCell.swift */,
 				ABAFC1F62C917AF70078A5B2 /* HomeRecommendItemCell.xib */,
@@ -224,6 +235,7 @@
 				ABAB3ABB2C8FEDE700CF6CA8 /* DesignSource */,
 				ABAB3AB82C8FD54B00CF6CA8 /* Featrue */,
 				ABAB3AC92C900B3E00CF6CA8 /* Main.storyboard */,
+				ABAFC1E32C91712E0078A5B2 /* TabBarController.swift */,
 				ABBD961E2C8EB4DE00442916 /* Info.plist */,
 			);
 			path = "Vod-ios";
@@ -352,9 +364,11 @@
 			files = (
 				ABAB3ACA2C900B3E00CF6CA8 /* Main.storyboard in Resources */,
 				ABBD96432C8EB6A700442916 /* .gitignore in Resources */,
+				ABE31AD32C9272410092BC9E /* HomeTrendingContainerCell.xib in Resources */,
 				ABAFC1DE2C910BF20078A5B2 /* HomeVideoCell.xib in Resources */,
 				ABBD961A2C8EB4DE00442916 /* Assets.xcassets in Resources */,
 				ABAB3AA32C8FC99100CF6CA8 /* LaunchScreen.storyboard in Resources */,
+				ABE31AD72C9274730092BC9E /* HomeTrendingItemCell.xib in Resources */,
 				ABAFC1F22C91759E0078A5B2 /* HomeRecommendContainerCell.xib in Resources */,
 				ABAB3AB22C8FC9D700CF6CA8 /* Splash.storyboard in Resources */,
 				ABBD96412C8EB67500442916 /* README.md in Resources */,
@@ -387,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAB3ACD2C900B5500CF6CA8 /* LoginViewController.swift in Sources */,
+				ABE31AD52C9273B80092BC9E /* HomeTrendingContainerCell.swift in Sources */,
 				ABAFC1EA2C9174000078A5B2 /* HomeHeaderCell.swift in Sources */,
 				ABAFC1F92C917B750078A5B2 /* HomeRecommendItemCell.swift in Sources */,
 				ABAFC1F02C9175520078A5B2 /* HomeFooterCell.swift in Sources */,
@@ -395,6 +410,7 @@
 				ABAB3AC12C90080900CF6CA8 /* VColor.swift in Sources */,
 				ABAFC1FB2C917BE70078A5B2 /* HomeRecommendContainerCell.swift in Sources */,
 				ABAFC1E22C9165E60078A5B2 /* HomeViewModel.swift in Sources */,
+				ABE31AD92C92749D0092BC9E /* HomeTrendingItemCell.swift in Sources */,
 				ABBD96132C8EB4DC00442916 /* SceneDelegate.swift in Sources */,
 				ABAB3ABF2C9007E600CF6CA8 /* VFont.swift in Sources */,
 				ABAFC1E02C9164960078A5B2 /* HomeSection.swift in Sources */,

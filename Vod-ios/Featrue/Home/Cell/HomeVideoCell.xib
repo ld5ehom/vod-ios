@@ -138,7 +138,7 @@
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="1Ft-9o-NQ0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HGm-Yr-sh2"/>
+                    <constraint firstItem="1Ft-9o-NQ0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="JWK-fc-kVe"/>
                     <constraint firstAttribute="bottom" secondItem="1Ft-9o-NQ0" secondAttribute="bottom" constant="20" id="MTI-9d-aqc"/>
                     <constraint firstAttribute="trailing" secondItem="1Ft-9o-NQ0" secondAttribute="trailing" constant="20" id="YcW-Kd-jEW"/>
                     <constraint firstItem="1Ft-9o-NQ0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="hd8-Pe-o9p"/>

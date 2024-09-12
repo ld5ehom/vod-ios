@@ -19,6 +19,7 @@ class HomeRecommendItemCell: UITableViewCell {
     @IBOutlet weak var thumbnailImageView: UIImageView!
     @IBOutlet weak var playTimeBGView: UIView!
     @IBOutlet weak var playTimeLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
 
