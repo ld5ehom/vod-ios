@@ -40,6 +40,13 @@ class HomeViewController: UIViewController {
             UINib(nibName: "HomeFooterCell", bundle: .main),
             forCellReuseIdentifier: HomeFooterCell.identifier
         )
+        
+        // Home Trending Now Ranking
+        self.tableView.register(
+            UINib(nibName: HomeTrendingContainerCell.identifier, bundle: nil),
+            forCellReuseIdentifier: HomeTrendingContainerCell.identifier
+        )
+        
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "empty")
         self.tableView.delegate = self
         self.tableView.dataSource = self
@@ -64,6 +71,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         switch section {
         case .header:
             return 1
+        case .trending:
+            return 1
         case .video:
             return 2
         case .recommend:
@@ -84,6 +93,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         switch section {
         case .header:
             return HomeHeaderCell.height
+        case .trending:
+            return HomeTrendingContainerCell.height
         case .video:
             return HomeVideoCell.height
         case .recommend:
@@ -108,6 +119,17 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                 withIdentifier: HomeHeaderCell.identifier,
                 for: indexPath
             )
+            
+        // Trend now dequeue
+        case .trending:
+            let cell = tableView.dequeueReusableCell(
+                withIdentifier: HomeTrendingContainerCell.identifier,
+                for: indexPath
+            )
+            // delegate
+            (cell as? HomeTrendingContainerCell)?.delegate = self
+            return cell
+            
         case .video:
             return tableView.dequeueReusableCell(
                 withIdentifier: HomeVideoCell.identifier,
@@ -137,5 +159,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 extension HomeViewController: HomeRecommendContainerCellDelegate {
     func homeRecommendContainerCell(_ cell: HomeRecommendContainerCell, didSelectItemAt index: Int) {
         print("home recommend cell did select item at \(index)")
+    }
+}
+
+// Handles user interaction with the trending section
+extension HomeViewController: HomeTrendingContainerCellDeleate {
+    func homeTrendingContainerCell(_ cell: HomeTrendingContainerCell, didSelectItemAt index: Int) {
+        print("User selected trending item at position \(index)")
     }
 }
