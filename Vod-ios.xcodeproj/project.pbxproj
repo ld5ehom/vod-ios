@@ -41,6 +41,10 @@
 		ABE31AD52C9273B80092BC9E /* HomeTrendingContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE31AD42C9273B80092BC9E /* HomeTrendingContainerCell.swift */; };
 		ABE31AD72C9274730092BC9E /* HomeTrendingItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE31AD62C9274730092BC9E /* HomeTrendingItemCell.xib */; };
 		ABE31AD92C92749D0092BC9E /* HomeTrendingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE31AD82C92749D0092BC9E /* HomeTrendingItemCell.swift */; };
+		ABE31ADB2C92927F0092BC9E /* HomeRecentWatchContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE31ADA2C92927F0092BC9E /* HomeRecentWatchContainerCell.xib */; };
+		ABE31AE12C9293500092BC9E /* HomeRecentWatchContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE31AE02C9293500092BC9E /* HomeRecentWatchContainerCell.swift */; };
+		ABE31AE32C92939A0092BC9E /* HomeRecentWatchItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE31AE22C92939A0092BC9E /* HomeRecentWatchItemCell.xib */; };
+		ABE31AE52C9293BC0092BC9E /* HomeRecentWatchItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE31AE42C9293BC0092BC9E /* HomeRecentWatchItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +103,10 @@
 		ABE31AD42C9273B80092BC9E /* HomeTrendingContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTrendingContainerCell.swift; sourceTree = "<group>"; };
 		ABE31AD62C9274730092BC9E /* HomeTrendingItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTrendingItemCell.xib; sourceTree = "<group>"; };
 		ABE31AD82C92749D0092BC9E /* HomeTrendingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTrendingItemCell.swift; sourceTree = "<group>"; };
+		ABE31ADA2C92927F0092BC9E /* HomeRecentWatchContainerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeRecentWatchContainerCell.xib; sourceTree = "<group>"; };
+		ABE31AE02C9293500092BC9E /* HomeRecentWatchContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentWatchContainerCell.swift; sourceTree = "<group>"; };
+		ABE31AE22C92939A0092BC9E /* HomeRecentWatchItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeRecentWatchItemCell.xib; sourceTree = "<group>"; };
+		ABE31AE42C9293BC0092BC9E /* HomeRecentWatchItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentWatchItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,10 +204,14 @@
 				ABE31AD82C92749D0092BC9E /* HomeTrendingItemCell.swift */,
 				ABE31AD22C9272410092BC9E /* HomeTrendingContainerCell.xib */,
 				ABE31AD42C9273B80092BC9E /* HomeTrendingContainerCell.swift */,
-				ABAFC1F12C91759E0078A5B2 /* HomeRecommendContainerCell.xib */,
-				ABAFC1FA2C917BE70078A5B2 /* HomeRecommendContainerCell.swift */,
 				ABAFC1F62C917AF70078A5B2 /* HomeRecommendItemCell.xib */,
 				ABAFC1F82C917B750078A5B2 /* HomeRecommendItemCell.swift */,
+				ABAFC1F12C91759E0078A5B2 /* HomeRecommendContainerCell.xib */,
+				ABAFC1FA2C917BE70078A5B2 /* HomeRecommendContainerCell.swift */,
+				ABE31AE22C92939A0092BC9E /* HomeRecentWatchItemCell.xib */,
+				ABE31AE42C9293BC0092BC9E /* HomeRecentWatchItemCell.swift */,
+				ABE31ADA2C92927F0092BC9E /* HomeRecentWatchContainerCell.xib */,
+				ABE31AE02C9293500092BC9E /* HomeRecentWatchContainerCell.swift */,
 				ABAFC1EB2C9174BF0078A5B2 /* HomeFooterCell.xib */,
 				ABAFC1EF2C9175520078A5B2 /* HomeFooterCell.swift */,
 			);
@@ -374,6 +386,8 @@
 				ABBD96412C8EB67500442916 /* README.md in Resources */,
 				ABAFC1F72C917AF70078A5B2 /* HomeRecommendItemCell.xib in Resources */,
 				ABAFC1EC2C9174BF0078A5B2 /* HomeFooterCell.xib in Resources */,
+				ABE31AE32C92939A0092BC9E /* HomeRecentWatchItemCell.xib in Resources */,
+				ABE31ADB2C92927F0092BC9E /* HomeRecentWatchContainerCell.xib in Resources */,
 				ABAB3ABD2C9003C700CF6CA8 /* Colors.xcassets in Resources */,
 				ABAFC1E62C91725B0078A5B2 /* HomeHeaderCell.xib in Resources */,
 			);
@@ -401,9 +415,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAB3ACD2C900B5500CF6CA8 /* LoginViewController.swift in Sources */,
+				ABE31AE12C9293500092BC9E /* HomeRecentWatchContainerCell.swift in Sources */,
 				ABE31AD52C9273B80092BC9E /* HomeTrendingContainerCell.swift in Sources */,
 				ABAFC1EA2C9174000078A5B2 /* HomeHeaderCell.swift in Sources */,
 				ABAFC1F92C917B750078A5B2 /* HomeRecommendItemCell.swift in Sources */,
+				ABE31AE52C9293BC0092BC9E /* HomeRecentWatchItemCell.swift in Sources */,
 				ABAFC1F02C9175520078A5B2 /* HomeFooterCell.swift in Sources */,
 				ABBD96112C8EB4DC00442916 /* AppDelegate.swift in Sources */,
 				ABAFC1E42C91712E0078A5B2 /* TabBarController.swift in Sources */,

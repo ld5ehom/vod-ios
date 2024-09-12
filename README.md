@@ -39,11 +39,16 @@
        - Implemented the home screen using a UITableView within HomeViewController and integrated it with a TabBarController for navigation.
        - Used custom cells created with .xib files to display video content and other sections (header, recommendations, and footer) in the table view.
        - Managed UI elements inside the .xib cells by overriding awakeFromNib() to configure views when the cell is loaded.
-     - **HomeTrending Screen Implementation (Using UICollectionView)** 
+     - **HomeTrending Screen Implementation (Using UICollectionView)** - [commit e95e4d1](https://github.com/ld5ehom/vod-ios/commit/e95e4d1770d69e29d42a04dc16d8444d59f9e7c6) 
        - To add a horizontal trending component to the home screen, we utilized UICollectionView. This collection view is responsible for displaying trending items and is implemented within HomeTrendingContainerCell.
        - The cells of the UICollectionView are reused to conserve memory. HomeTrendingItemCell is used as the cell for the collection view, managed within HomeTrendingContainerCell. The delegate pattern is employed to implement delegate and datasource, effectively managing data handling and UI setup for the cells.
        - The layout of the UICollectionView uses the default layout provided and can be customized to adjust the cell arrangement. This setup ensures that trending items are properly aligned in a horizontal format.
        - HomeTrendingItemCell is defined separately and used as a cell within the UICollectionView. The cell's UI is configured in awakeFromNib(), displaying the ranking of trending items. This modular approach in HomeTrendingContainerCell helps to organize and maintain the UI elements efficiently.
+     - **Home Recent Watch Screen Implementation (History)** 
+       - Implemented the recent watch screen on the home page using UICollectionView to display a collection of recently watched items.
+       - Managed the collection view's layout and data handling by implementing the UICollectionViewDelegate and UICollectionViewDataSource protocols.
+       - Used delegation to handle item selection, allowing for interaction when an item is selected in the collection view.
+
 
 
 **Task 4. My Page**
